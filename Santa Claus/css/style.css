@@ -1,0 +1,497 @@
+
+
+/* --------------------- 
+--------------------- */
+
+ 
+  @font-face{
+  	font-family: Kurale; 
+  	src: url("Kurale-Regular.ttf");
+  }
+  @font-face{
+  font-family: Cookie;
+  src: url("Cookie-Regular.ttf");	
+}
+
+body {
+font-family: Kurale, sans-serif;
+
+}
+
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+a {color: #000;}
+
+a:hover {
+    color: #f53f2c;
+    text-decoration: none;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+/* --------------------- 
+--------------------- */
+
+.highlight {color: #f53f2c;}
+h1 {font-size: 138px;}
+h2 {font-family: Cookie, cursive;}
+h4 {font-weight: 600;}
+
+
+/* --------------------- 
+--------------------- */
+
+p {
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #b2b2b2;
+}
+
+/* --------------------- 
+--------------------- */
+.btn:focus,
+input:focus {
+    outline: none;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.btn:focus {
+    background: #b73426;
+    color: #fff;
+    border: 2px solid #f53f2c;
+}
+
+.btn-default {
+    background: none;
+    color: #f53f2c;
+    border: 2.5px solid #f53f2c;
+}
+
+.btn-default:hover {
+    background: #f53f2c;
+    color: #fff;
+    border: 2px solid #b73426;
+}
+
+
+ 
+
+/* --------------------- 
+--------------------- */
+input {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #b2b2b2;
+    margin: 30px 5px;
+    color: #b2b2b2;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+input:focus {
+    border: 2px solid #f53f2c;
+}
+
+/* --------------------- 
+--------------------- */
+
+
+/* --------------------- 
+--------------------- */
+.sectionhead {padding: 0 150px;}
+.sectionhead h2 {padding-bottom: 10px;}
+
+.sectionhead p {
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.sectionhead hr {
+    width: 75px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+/* --------------------- 
+--------------------- */
+#first_section {
+    text-align: center;
+    height: 560px;
+    color: #fff;
+    background: url(../img/street.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#first_section .container {padding-top: 70px;}
+
+#first_section h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: .8em;
+    text-shadow: 7px 9px 5px rgba(161, 19, 15, 0.294);
+}
+
+
+
+
+#first_section p {text-transform: uppercase;
+
+    padding-top: 75px;
+    color: #fff;
+}
+.redoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 24, 0, 0.75);
+    position: relative;
+}
+
+
+#holiday_season_sale
+{
+	font-size: 50px;
+	animation-duration: 3s;
+}
+#time_again
+{
+	font-size: 100px;
+}
+ 
+#save_up_to
+{   border: 2.5px solid #fff;
+    color: #fff;
+	cursor: pointer;
+    border-radius: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 32px;
+	width: 60%;
+    padding: 20px;
+    margin-top: 30px;
+	position: relative;
+	left: 22%;
+	
+}
+
+
+
+#save_up_to:hover {
+    color: #fff;
+    border-radius: 45px;
+}
+
+#offer_ends
+{
+	animation-duration: 2s;
+}
+#bigbell {
+	animation-duration: 30s;
+	margin-top: 0px;
+	height: 180px;
+	width: 180px;
+}
+
+  
+.santa {
+    float: right;
+    margin-top: -370px;
+ 
+
+}
+.santa_pic
+{
+margin-top: 60px;
+	height: 339px;
+	width: 272px;
+}
+/* --------------------- 
+--------------------- */
+
+#second_section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.col-md-6,
+.col-lg-4 
+{
+    padding-top: 50px;
+}
+
+#second_section img 
+{
+height: 120px;
+}
+
+/* --------------------- 
+--------------------- */
+
+
+#third_section 
+{
+    margin-top: 75px;
+    background: url(../img/street.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.lightoverlay {
+    background-color: rgba(248, 248, 248, 0.9);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#third_section .content 
+{
+	padding: 65px 0;
+}
+#third_section p 
+{
+color: #9f9f9f;
+}
+
+#third_section img 
+{
+    margin-top: -30px;
+    margin-bottom: -15px;
+ 
+	height: 428px;
+	width: 343px;
+	
+}
+
+
+/* --------------------- 
+--------------------- */
+#fourth_section {
+    background: url(../img/price_tag.png) no-repeat;
+	background-size: 143px 148px;
+    background-position: right 0;
+    padding-top: 75px;
+	
+}
+
+
+
+
+.featureditem 
+{
+padding: 75px 0 20px;
+}
+.featureditem img
+{
+margin-top: -20px;
+}
+.productimg 
+{max-width: 100%;
+
+}
+
+.productimg:hover 
+{
+    opacity: .8;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.price {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.offertag {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: rotate(351deg);
+    -webkit-transform: rotate(351deg);
+    -moz-transform: rotate(351deg);
+    -o-transform: rotate(351deg);
+    -ms-transform: rotate(351deg);
+}
+
+.offertag h4 {margin-bottom: 0px;}
+.offertag p {color: #fff;}
+
+.bigtag {
+    top: 10px;
+    left: 400px;
+}
+
+.smalltag {
+    top: 100px;
+    left: 110px;
+    -webkit-transform: rotate(351deg) scale(.8);
+    -moz-transform: rotate(351deg) scale(.8);
+    -o-transform: rotate(351deg) scale(.8);
+    -ms-transform: rotate(351deg) scale(.8);
+}
+
+.fixedoffer 
+{
+background: #89d055;
+}
+.percentoffer 
+{
+background: #f53f2c;
+}
+.otheroffer 
+{
+background: #668bde;
+}
+.moreitems .col-md-4 
+{
+padding-left: 0;
+}
+
+/* --------------------- 
+--------------------- */
+#fifth_section {
+    margin-top: 155px;
+    background: url(../img//street.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.darkoverlay {
+    background-color: rgba(54, 57, 66, 0.75);
+    width: 100%;
+    height: 100%;
+	 
+    position: relative;
+}
+#fifth_section .container 
+{
+padding: 65px 0;
+}
+
+
+
+
+#santaicon 
+{
+ 
+	animation-duration: 20s;
+    margin-top: -160px;
+    overflow: hidden;
+	width: 205px;
+	height: 205px;
+}
+
+
+
+
+/* --------------------- 
+--------------------- */
+#sixth_section 
+{
+padding: 75px 0 30px 0;
+}
+.logo 
+{
+margin-top: -20px;
+}
+
+.santacap 
+{
+    margin-top: -120px;
+    margin-left: -210px;
+	height: 48px;
+	width: 48px;
+ 
+}
+
+
+#sixth_section hr 
+{
+    width: 75px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+
+
+/* --------------------- 
+--------------------- */
+#seventh_section {
+    position: fixed;
+    right: -125px;
+    top: 130px;
+    width: 200px;
+}
+
+.sticky li {
+    list-style: none;
+    background-color: #333;
+    color: #b2b2b2;
+    height: 36px;
+    margin: 0px 0px 3px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    filter: gray alpha(50%)
+    -webkit-filter: grayscale(50%);
+}
+
+.sticky li:hover 
+{
+    margin-left: -115px;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.sticky li img 
+{
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+    padding: 2px;
+}
+
+.sticky li p 
+{
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+
+
+
+
+
+
